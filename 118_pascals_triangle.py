@@ -16,3 +16,4 @@ class Solution(object):
         return result
 
 # solution modified from geeks for geeks article on printing pascals triangle
+# time complexity is O(n!) where n is the number of rows in the triangle
