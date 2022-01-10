@@ -21,6 +21,19 @@ class Solution(object):
 
         return True
 
+    def canConstruct2(self, ransomNote, magazine):
+        """
+        :type ransomNote: str
+        :type magazine: str
+        :rtype: bool
+        """
+        required = collections.Counter(ransomNote)
+        available = collections.Counter(magazine)
+        for count in required:
+            if available[count] - required[count] < 0:
+                return False
+        return True
+
 ransom_note='aa'
 magazine='ab'
 test = Solution()

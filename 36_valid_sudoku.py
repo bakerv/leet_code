@@ -36,6 +36,6 @@ start_time = time.time()
 while counter < 100000:
     test.isValidSudoku1(board)
     counter +=1
-print('Elapsed Time (seconds):', time.time() - start_time)
+print('Elapsed Time (seconds)wrg:', time.time() - start_time)
 
 
