@@ -3,6 +3,8 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
+
 class Solution(object):
     def reverseList(self, head):
         """
@@ -24,3 +26,5 @@ class Solution(object):
             reversed_list = current_value
 
         return reversed_list
+
+    # solution taken from the discussion section of leetcode from user tusizi
